@@ -19,3 +19,6 @@ It helps optimize problems that require checking pairs or segments, often reduci
 | 1 | Two Sum II - Input Array Is Sorted | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Java |
 | 2 | Move Zeroes | [LeetCode #283](https://leetcode.com/problems/move-zeroes/) | Java |
 | 3 | Remove Duplicates from Sorted Array | [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Java |
+| 4 | Reverse String | [LeetCode #344](https://leetcode.com/problems/reverse-string/) | Java |
+| 5 | Container With Most Water | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | Java |
+| 6 | Squares of a Sorted Array | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) | Java |
