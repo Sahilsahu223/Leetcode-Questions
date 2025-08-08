@@ -13,3 +13,15 @@ A curated collection of LeetCode problems organized **by algorithmic/pattern cat
 
 - Two Pointers
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Sahilsahu223/Leetcode-Pattern-Wise/tree/master/0056-merge-intervals) |
+## Sorting
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Sahilsahu223/Leetcode-Pattern-Wise/tree/master/0056-merge-intervals) |
+<!---LeetCode Topics End-->
