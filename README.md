@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0027-remove-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0027-remove-element) |
 | [0125-valid-palindrome](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
