@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1019-squares-of-a-sorted-array) |
 ## Two Pointers
 |  |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
 ## Dynamic Programming
 |  |
 | ------- |
