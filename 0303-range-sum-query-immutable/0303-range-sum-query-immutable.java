@@ -3,13 +3,12 @@ class NumArray {
     private int[] prefixSum;
 
     public NumArray(int[] nums) {
-        // Step 1: Create an array of size N + 1
-        prefixSum = new int[nums.length + 1];
+        int n = nums.length;
+        prefixSum = new int[n + 1];
         
-        // Index 0 is already 0 by default (Java init), so we start filling from 1.
-        // prefixSum[i] will store the sum of nums[0]...nums[i-1]
-        for (int i = 0; i < nums.length; i++) {
-            prefixSum[i + 1] = prefixSum[i] + nums[i];
+        prefixSum[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            prefixSum[i] = prefixSum[i - 1] + nums[i - 1];
         }
     }
     
