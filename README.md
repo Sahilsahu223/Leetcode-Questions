@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0303-range-sum-query-immutable) |
 | [0435-non-overlapping-intervals](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0435-non-overlapping-intervals) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1019-squares-of-a-sorted-array) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0217-contains-duplicate) |
 | [0435-non-overlapping-intervals](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0435-non-overlapping-intervals) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1019-squares-of-a-sorted-array) |
 ## Sliding Window
 |  |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0217-contains-duplicate) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0442-find-all-duplicates-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
