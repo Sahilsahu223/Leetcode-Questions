@@ -4,19 +4,19 @@ class NumArray {
 
     public NumArray(int[] nums) {
         int n = nums.length;
-        prefixSum = new int[n + 1];
+        prefixSum = new int[n];
         
-        prefixSum[0] = 0;
-        for (int i = 1; i <= n; i++) {
-            prefixSum[i] = prefixSum[i - 1] + nums[i - 1];
+        prefixSum[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            prefixSum[i] = prefixSum[i - 1] + nums[i];
         }
     }
     
     public int sumRange(int left, int right) {
-        // Step 2: Apply the formula in O(1) time
-        // We want the sum up to 'right'. In our shifted array, that is at index 'right + 1'.
-        // We want to subtract everything before 'left'. In our shifted array, that is at index 'left'.
-        return prefixSum[right + 1] - prefixSum[left];
+        if (left == 0){
+            return prefixSum[right];    
+        }
+        return prefixSum[right] - prefixSum[left-1];
     }
 }
 
