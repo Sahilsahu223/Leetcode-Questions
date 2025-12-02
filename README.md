@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0189-rotate-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0303-range-sum-query-immutable) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
 ## String
 |  |
@@ -68,11 +70,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0303-range-sum-query-immutable) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
