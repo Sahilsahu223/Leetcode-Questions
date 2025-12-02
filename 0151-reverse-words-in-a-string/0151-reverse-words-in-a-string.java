@@ -1,6 +1,6 @@
 class Solution {
     public String reverseWords(String s) {
-        String[] words = s.split(" ");
+        String[] words = s.trim().split("\\s+");
         int left = 0;
         int right = words.length - 1;
 
@@ -12,16 +12,14 @@ class Solution {
             right--;
         }
 
-        StringBuilder result = new StringBuilder();
-        for (String word : words) {
-            if (!word.isEmpty()) {
-                if (result.length() > 0) {
-                    result.append(" ");
-                }
-                result.append(word);
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<words.length;i++){
+            sb.append(words[i]);
+            if(i<words.length-1){
+                sb.append(" ");
             }
         }
 
-        return result.toString();
+        return sb.toString();
     }
 }
