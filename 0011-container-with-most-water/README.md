@@ -1,32 +1,31 @@
-<h2><a href="https://leetcode.com/problems/container-with-most-water">11. Container With Most Water</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
+# 11. Container With Most Water
 
-<p>Find two lines that together with the x-axis form a container, such that the container contains the most water.</p>
+**[View Problem on LeetCode](https://leetcode.com/problems/container-with-most-water)**
 
-<p>Return <em>the maximum amount of water a container can store</em>.</p>
+### 🛠 Pattern: Two Pointers (Greedy Approach)
 
-<p><strong>Notice</strong> that you may not slant the container.</p>
+This problem is a classic example of the **Two Pointers** pattern optimized with a greedy choice.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg" style="width: 600px; height: 287px;" />
-<pre>
-<strong>Input:</strong> height = [1,8,6,2,5,4,8,3,7]
-<strong>Output:</strong> 49
-<strong>Explanation:</strong> The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
-</pre>
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> height = [1,1]
-<strong>Output:</strong> 1
-</pre>
+### 💡 The Concept
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Instead of calculating the area for every single pair of lines (which would be $O(N^2)$ and too slow), we start with the **maximum possible width** and shrink our window inwards.
 
-<ul>
-	<li><code>n == height.length</code></li>
-	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
+1.  **Initialize Pointers:** Place one pointer (`left`) at the beginning and one (`right`) at the end of the array.
+2.  **Calculate Area:** Compute the current area:
+    $$Area = (right - left) \times \min(height[left], height[right])$$
+3.  **The Greedy Move:** To potentially find a larger area, we need to overcome the reduction in width. The only way to get a larger area is to find a **taller line**.
+    * If `height[left] < height[right]`: Move the `left` pointer forward. (The left line is the bottleneck).
+    * Else: Move the `right` pointer backward.
+4.  **Repeat:** Continue until the pointers meet.
+
+### 🚀 Complexity Analysis
+
+* **Time Complexity:** $O(N)$ — We scan the array exactly once, visiting each element at most once.
+* **Space Complexity:** $O(1)$ — No extra data structures are used.
+
+---
+
+### Key Takeaway
+When trying to maximize an area determined by `width * height`, start with the maximum width (Two Pointers at ends) and logically eliminate the limiting factor (the shorter height) at each step.
