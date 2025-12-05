@@ -1,54 +1,38 @@
-<h2><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array">26. Remove Duplicates from Sorted Array</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code> sorted in <strong>non-decreasing order</strong>, remove the duplicates <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a> such that each unique element appears only <strong>once</strong>. The <strong>relative order</strong> of the elements should be kept the <strong>same</strong>. Then return <em>the number of unique elements in </em><code>nums</code>.</p>
+# 26. Remove Duplicates from Sorted Array
 
-<p>Consider the number of unique elements of <code>nums</code> to be <code>k</code>, to get accepted, you need to do the following things:</p>
+**[View Problem on LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array)**
 
-<ul>
-	<li>Change the array <code>nums</code> such that the first <code>k</code> elements of <code>nums</code> contain the unique elements in the order they were present in <code>nums</code> initially. The remaining elements of <code>nums</code> are not important as well as the size of <code>nums</code>.</li>
-	<li>Return <code>k</code>.</li>
-</ul>
+### 🛠 Pattern: Two Pointers (Reader-Writer)
 
-<p><strong>Custom Judge:</strong></p>
+This problem uses the **Two Pointers** technique, specifically distinguishing between a "slow" pointer (the writer) and a "fast" pointer (the reader).
 
-<p>The judge will test your solution with the following code:</p>
 
-<pre>
-int[] nums = [...]; // Input array
-int[] expectedNums = [...]; // The expected answer with correct length
 
-int k = removeDuplicates(nums); // Calls your implementation
+### 💡 The Concept
 
-assert k == expectedNums.length;
-for (int i = 0; i &lt; k; i++) {
-    assert nums[i] == expectedNums[i];
-}
-</pre>
+Since the array is **sorted**, all duplicate elements are grouped together. This allows us to scan the array and eliminate duplicates without using extra space (in-place).
 
-<p>If all assertions pass, then your solution will be <strong>accepted</strong>.</p>
+We maintain two pointers:
+1.  **The Writer (`i`):** Keeps track of the index where the *next* unique element should be placed.
+2.  **The Reader (`j`):** Scans ahead to find unique elements.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+### 📝 Step-by-Step Logic
 
-<pre>
-<strong>Input:</strong> nums = [1,1,2]
-<strong>Output:</strong> 2, nums = [1,2,_]
-<strong>Explanation:</strong> Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
-</pre>
+1.  **Initialize:** Start the writer pointer `i` at index `0`.
+2.  **Scan:** Start a loop with the reader pointer `j` from index `1` to the end.
+3.  **Compare:** Check if the value at the reader `nums[j]` is different from the value at the writer `nums[i]`.
+    * **If they are different:** It means we found a new unique number.
+        * Move the writer `i` forward (`i++`).
+        * Copy the new value: `nums[i] = nums[j]`.
+    * **If they are the same:** It is a duplicate. Do nothing; let the reader `j` keep moving forward to skip it.
+4.  **Result:** The number of unique elements is `i + 1`.
 
-<p><strong class="example">Example 2:</strong></p>
+### 🚀 Complexity Analysis
 
-<pre>
-<strong>Input:</strong> nums = [0,0,1,1,1,2,2,3,3,4]
-<strong>Output:</strong> 5, nums = [0,1,2,3,4,_,_,_,_,_]
-<strong>Explanation:</strong> Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
-It does not matter what you leave beyond the returned k (hence they are underscores).
-</pre>
+* **Time Complexity:** $O(N)$ — The reader pointer traverses the array exactly once.
+* **Space Complexity:** $O(1)$ — We modify the array in-place without using extra storage.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+---
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
-	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
-</ul>
+### Key Takeaway
+For "in-place" array problems where you need to filter or compress data, use **Two Pointers**: one to read the current values and one to write the valid values, overwriting the data you no longer need.
