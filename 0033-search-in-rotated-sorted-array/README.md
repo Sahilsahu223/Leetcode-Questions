@@ -1,29 +1,45 @@
-<h2><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></h2><h3>Medium</h3><hr><p>There is an integer array <code>nums</code> sorted in ascending order (with <strong>distinct</strong> values).</p>
+# 33. Search in Rotated Sorted Array
 
-<p>Prior to being passed to your function, <code>nums</code> is <strong>possibly left rotated</strong> at an unknown index <code>k</code> (<code>1 &lt;= k &lt; nums.length</code>) such that the resulting array is <code>[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]</code> (<strong>0-indexed</strong>). For example, <code>[0,1,2,4,5,6,7]</code> might be left rotated by&nbsp;<code>3</code>&nbsp;indices and become <code>[4,5,6,7,0,1,2]</code>.</p>
+**[View Problem on LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array)**
 
-<p>Given the array <code>nums</code> <strong>after</strong> the possible rotation and an integer <code>target</code>, return <em>the index of </em><code>target</code><em> if it is in </em><code>nums</code><em>, or </em><code>-1</code><em> if it is not in </em><code>nums</code>.</p>
+### 🛠 Pattern: Modified Binary Search
 
-<p>You must write an algorithm with <code>O(log n)</code> runtime complexity.</p>
+The requirement for $O(\log N)$ complexity immediately suggests **Binary Search**, but since the array is rotated, we cannot apply the standard logic directly. We use a **Modified Binary Search**.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 0
-<strong>Output:</strong> 4
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 3
-<strong>Output:</strong> -1
-</pre><p><strong class="example">Example 3:</strong></p>
-<pre><strong>Input:</strong> nums = [1], target = 0
-<strong>Output:</strong> -1
-</pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 5000</code></li>
-	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
-	<li>All values of <code>nums</code> are <strong>unique</strong>.</li>
-	<li><code>nums</code> is an ascending array that is possibly rotated.</li>
-	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
-</ul>
+
+### 💡 The Concept
+
+A rotated sorted array (e.g., `[4,5,6,7,0,1,2]`) has a unique property: **At any pivot point (mid), one half of the array is always sorted.**
+
+To solve this, we don't just check "Is the target larger than mid?". We first check: **"Which side of the array is sorted?"**
+
+1.  **If the Left side is sorted:** We check if the target lies within this sorted range. If yes, go left. If no, go right.
+2.  **If the Right side is sorted:** We check if the target lies within this sorted range. If yes, go right. If no, go left.
+
+### 📝 Step-by-Step Logic
+
+1.  **Initialize:** `left = 0`, `right = n - 1`.
+2.  **Loop:** While `left <= right`:
+    * Calculate `mid`.
+    * **Found it?** If `nums[mid] == target`, return `mid`.
+    * **Identify Sorted Half:**
+        * **Case 1: Left side is sorted** (`nums[left] <= nums[mid]`)
+            * Does the target exist here? (`nums[left] <= target < nums[mid]`)?
+            * **Yes:** Search Left (`right = mid - 1`).
+            * **No:** Search Right (`left = mid + 1`).
+        * **Case 2: Right side is sorted** (Implicitly, if left isn't sorted, right must be)
+            * Does the target exist here? (`nums[mid] < target <= nums[right]`)?
+            * **Yes:** Search Right (`left = mid + 1`).
+            * **No:** Search Left (`right = mid - 1`).
+3.  **End:** If the loop finishes without finding the target, return `-1`.
+
+### 🚀 Complexity Analysis
+
+* **Time Complexity:** $O(\log N)$ — We divide the search space by half in every iteration, regardless of the rotation.
+* **Space Complexity:** $O(1)$ — Iterative binary search requires no extra space.
+
+---
+
+### Key Takeaway
+When applying Binary Search to "broken" or "rotated" sorted arrays, always ask: **"Which half is sorted?"** Use the sorted half to make the decision of where to eliminate data.
