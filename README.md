@@ -31,7 +31,7 @@
 | [0125-valid-palindrome](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0344-reverse-string) |
-| [0438-find-all-anagrams-in-a-string](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0438-fi
+| [0438-find-all-anagrams-in-a-string](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0438-fi) |
 ## Math
 |  |
 | ------- |
