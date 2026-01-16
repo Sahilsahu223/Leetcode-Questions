@@ -24,6 +24,7 @@
 | [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1019-squares-of-a-sorted-array) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 ## String
 |  |
 | ------- |
@@ -37,4 +38,12 @@
 |  |
 | ------- |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+## Hash Table
+|  |
+| ------- |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+## Enumeration
+|  |
+| ------- |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 <!---LeetCode Topics End-->
