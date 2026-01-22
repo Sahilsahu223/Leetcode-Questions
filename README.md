@@ -18,6 +18,7 @@
 | [0217-contains-duplicate](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0303-range-sum-query-immutable) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
@@ -46,4 +47,20 @@
 |  |
 | ------- |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+## Binary Search
+|  |
+| ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+## Sorting
+|  |
+| ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+## Matrix
+|  |
+| ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 <!---LeetCode Topics End-->
