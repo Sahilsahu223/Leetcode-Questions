@@ -14,6 +14,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0283-move-zeroes) |
@@ -39,6 +40,7 @@
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0204-count-primes) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 ## Hash Table
 |  |
@@ -48,6 +50,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0204-count-primes) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 ## Binary Search
 |  |
@@ -82,4 +85,8 @@
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
