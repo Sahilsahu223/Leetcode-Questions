@@ -26,6 +26,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0713-subarray-product-less-than-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0724-find-pivot-index) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/1019-squares-of-a-sorted-array) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -60,6 +61,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0162-find-peak-element) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Sorting
 |  |
 | ------- |
