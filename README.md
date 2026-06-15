@@ -78,6 +78,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0206-reverse-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Simulation
 |  |
@@ -95,4 +96,8 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0204-count-primes) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
