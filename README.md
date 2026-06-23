@@ -49,6 +49,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0142-linked-list-cycle-ii) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Enumeration
@@ -80,6 +81,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0876-middle-of-the-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -107,5 +109,6 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0142-linked-list-cycle-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/Sahilsahu223/Leetcode-Questions/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
